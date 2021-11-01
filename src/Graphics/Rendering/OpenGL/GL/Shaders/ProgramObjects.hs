@@ -15,7 +15,7 @@
 
 module Graphics.Rendering.OpenGL.GL.Shaders.ProgramObjects (
    -- * Program Objects
-   Program, createProgram, programDeleteStatus,
+   Program (..), createProgram, programDeleteStatus,
    attachShader, detachShader, attachedShaders,
    linkProgram, linkStatus,
    validateProgram, validateStatus,
